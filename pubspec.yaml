@@ -2,7 +2,7 @@ name: gst_verification
 description: A new Flutter plugin to verify GST Number in your Flutter Applications.
 version: 1.0.1
 author: "Dishant Mahajan <mr.dishantmahajan@gmail.com>"
-homepage: "https://appyflow.in/verify-gst,https://github.com/mrdishant/Paytm-Flutter-Plugin"
+homepage: "https://appyflow.in/verify-gst,https://github.com/mrdishant/GST-Verification-Plugin"
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
