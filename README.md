@@ -1,12 +1,14 @@
 # gst_verification
 
-A new Flutter plugin to verify GST Number in your Flutter Apps.
+A new flutter plugin to verify GST number in your flutter apps.
 
 ## Getting Started
 
-This plugin is used to get details of any gst Number. This plugin needs a key_secret provided by [AppyFlow Technologies](https://appyflow.in/verify-gst/)
+This plugin is used to get details of any gst Number. This plugin needs a key_secret provided by [Appyflow Technologies](https://appyflow.in/verify-gst/)
 Visit the following url to get your own key_secret
 [Get Key Secret](https://appyflow.in/verify-gst/#getAPI)
+
+### https://appyflow.in/verify-gst/#getAPI
 
 ## Screenshots
 
@@ -38,7 +40,7 @@ Visit the following url to get your own key_secret
 
 ```
 
-Result will be in JSON Format. Then you can use it to get Details about the gstNumber. For More you can read documentation online
+Result will be in JSON format. Then you can use it to get details of the gst number. For more you can read documentation online
 [Documentation](https://appyflow.in/verify-gst/#docs)
 
 For any query :

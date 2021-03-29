@@ -26,7 +26,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
           appBar: AppBar(
-            title: const Text('GST Verification example app'),
+            title: const Text('GST Verification Example App'),
           ),
           body: SingleChildScrollView(
             child: Padding(
@@ -103,13 +103,14 @@ class _MyAppState extends State<MyApp> {
     valueOp = 1;
     setState(() {});
 
-    GstVerification.verifyGST(gstNo, key_secret).then((result) {
+    GstVerification.verifyGST(gstNo: gstNo, key_secret: key_secret)
+        .then((result) {
       JsonEncoder encoder = new JsonEncoder.withIndent('  ');
-      String prettyprint = encoder.convert(result);
+      String prettyPrint = encoder.convert(result);
 
-      print(prettyprint);
+      print(prettyPrint);
 
-      response = "JSON Response:\n\n" + prettyprint;
+      response = "JSON Response:\n\n" + prettyPrint;
       print(response);
       valueOp = 0;
       setState(() {});

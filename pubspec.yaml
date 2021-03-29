@@ -1,11 +1,12 @@
 name: gst_verification
-description: A new Flutter plugin to verify GST Number in your Flutter Applications.
-version: 1.0.1
+description: A new flutter plugin to verify GST number in your flutter applications.
+version: 2.0.0
 author: "Dishant Mahajan <mr.dishantmahajan@gmail.com>"
-homepage: "https://appyflow.in/verify-gst,https://github.com/mrdishant/GST-Verification-Plugin"
+homepage: "https://appyflow.in/verify-gst"
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: '>=2.12.0 <3.0.0'
+  flutter: ">=1.12.0"
 
 dependencies:
   flutter:
@@ -26,8 +27,15 @@ flutter:
   # be modified. They are used by the tooling to maintain consistency when
   # adding or updating assets for this project.
   plugin:
-    androidPackage: in.appyflow.gst_verification
-    pluginClass: GstVerificationPlugin
+    platforms:
+      android:
+        package: in.appyflow.gst_verification
+        pluginClass: GstVerificationPlugin
+      ios:
+        pluginClass: GstVerificationPlugin
+      web:
+        pluginClass: GstVerificationPlugin
+#          fileName: hello_web.dart
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
